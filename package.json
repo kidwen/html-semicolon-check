@@ -1,5 +1,5 @@
 {
-  "name": "html-semicolon-check",
+	"name": "html-semicolon-check",
 	"displayName": "Html Semicolon Check",
 	"description": "检查html中调用方法后是否书写分号",
 	"version": "0.0.1",
@@ -10,7 +10,7 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:html-semicolon-check.helloWorld"
+		"onCommand:html-semicolon-check.helloWorld"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
@@ -30,13 +30,14 @@
 		"test": "node ./out/test/runTest.js"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.52.0",
 		"@types/glob": "^7.1.3",
 		"@types/mocha": "^8.0.4",
 		"@types/node": "^12.11.7",
-		"eslint": "^7.15.0",
-		"@typescript-eslint/eslint-plugin": "^4.9.0",
-		"@typescript-eslint/parser": "^4.9.0",
+		"@types/vscode": "^1.52.0",
+		"@typescript-eslint/eslint-plugin": "^4.11.0",
+		"@typescript-eslint/parser": "^4.11.0",
+		"eslint": "^7.16.0",
+		"eslint-config-google": "^0.14.0",
 		"glob": "^7.1.6",
 		"mocha": "^8.1.3",
 		"typescript": "^4.1.2",
