@@ -15,5 +15,20 @@
         "@typescript-eslint"
     ],
     "rules": {
+        // 缩进：4 空格
+        "indent": [
+            "error",
+            4
+        ],
+        // 大括号首尾空格
+        "object-curly-spacing": [
+            "error",
+            "always",
+            {
+                "arraysInObjects": false
+            }
+        ],
+        // 禁用单行最大长度
+        "max-len": "off"
     }
 }
