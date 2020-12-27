@@ -13,14 +13,7 @@
 		"onLanguage:html"
 	],
 	"main": "./out/extension.js",
-	"contributes": {
-		"commands": [
-			{
-				"command": "html-semicolon-check.helloWorld",
-				"title": "Hello World"
-			}
-		]
-	},
+	"contributes": {},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
 		"publish": "vsce package && vsce publish",
