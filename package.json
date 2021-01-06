@@ -1,5 +1,7 @@
 {
+	"publisher": "kidwen",
 	"name": "html-semicolon-check",
+	"main": "./out/extension.js",
 	"displayName": "Html Semicolon Check",
 	"description": "检查html中调用方法后是否书写分号",
 	"version": "0.0.1",
@@ -12,8 +14,16 @@
 	"activationEvents": [
 		"onLanguage:html"
 	],
-	"main": "./out/extension.js",
-	"contributes": {},
+	"contributes": {
+		"languages": [
+			{
+				"filenamePatterns": [
+					"*.html"
+				],
+				"title": "Hello Word"
+			}
+		]
+	},
 	"scripts": {
 		"vscode:prepublish": "yarn run compile",
 		"publish": "vsce package && vsce publish",
@@ -38,6 +48,5 @@
 		"vscode-test": "^1.4.1"
 	},
 	"license": "SEE LICENSE IN LICENSE.txt",
-	"publisher": "kidwen",
 	"repository": "https://github.com/kidwen/html-semicolon-check.git"
 }
