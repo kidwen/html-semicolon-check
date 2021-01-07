@@ -17,10 +17,10 @@
 	"contributes": {
 		"languages": [
 			{
-				"filenamePatterns": [
-					"*.html"
-				],
-				"title": "Hello Word"
+				"id": "html",
+				"extensions": [
+					".html"
+				]
 			}
 		]
 	},
